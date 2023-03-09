@@ -1,0 +1,82 @@
+@import url(reset.css);
+
+@font-face {
+    font-family: 'Zebulon';
+    src: url('../fonts/Zebulon.woff2') format('woff2'),
+        url('../fonts/Zebulon.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rosalinda';
+    src: url('../fonts/RosalindaRegular.woff2') format('woff2'),
+        url('../fonts/RosalindaRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    text-align: center;
+    text-transform:uppercase;
+    text-indent: 20px;
+    font-size: 20px;
+	line-height: 2;
+}
+
+h1{
+    text-align:center;
+    font-family: "Zebulon",'Times New Roman', Times, serif;
+    color: brown;
+    font-size: 30px;
+    text-shadow:5px 5px 5px #20bb47, -5px -5px 5px rgb(25, 0, 255);
+}
+
+.about {
+    
+}
+.about__text {
+}
+.paragraf1__text {
+    font-style: italic;
+    font-weight: 700;
+    color: chartreuse;
+}
+.paragraf2__text {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-style: italic;
+    text-align: left;
+    color: rgba(42, 136, 165, 0.5);
+    text-decoration:underline;
+}
+.paragraf3__text {
+    text-align: right;
+    color: chocolate;
+    text-decoration: overline;
+}
+.paragraf4__text {
+    text-transform: lowercase;
+    text-decoration: line-through;
+    color: blueviolet;
+}
+.paragraf5__text {
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: justify;
+    color: darkorange;
+}
+.paragraf6__text {
+   font-family: "Rosalinda";
+   color: hotpink;
+}
+.paragraf7__text {
+    font-family: "Oswald";
+    color: gray;
+}
+.paragraf8__text {
+    word-spacing: 30px;
+    color: aqua;
+}
