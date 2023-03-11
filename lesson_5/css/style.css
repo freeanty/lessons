@@ -1,0 +1,93 @@
+@import url(reset.css);
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #6C757D; 
+    }
+
+.container{
+    padding-top: 15px;
+    max-width: 1440px;
+    margin: 0 auto;   
+}
+
+.section_1{
+    max-width: 816px; 
+    margin: 0 auto;
+    margin-bottom: 80px;   
+}
+  
+.title_1 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    color: #212529;
+    max-width: 400px;
+    margin-bottom: 40px; 
+}
+
+.text_1 { 
+max-width: 816px;  
+}
+
+.img_1 {
+    margin-bottom: 80px;
+    border-radius: 5px; 
+    max-width: 100%; 
+}
+
+.section_2{
+    max-width: 816px;
+    margin: 0 auto;
+    margin-bottom: 80px; 
+}
+
+.title_2 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    color: #212529;
+    max-width: 605px;
+    margin-bottom: 40px; 
+    
+}
+
+.text_2{
+    max-width: 816px; 
+}
+
+.images{  
+    font-size: 0;
+    min-width: 605px;
+    min-height: 400px;   
+}
+
+.img_2 {
+    border-radius: 5px; 
+    max-width: 100%;   
+}
+
+.img_3 {
+    border-radius: 5px;
+    margin-left: 26px; 
+    max-width: 100%;   
+}
+
+.section_3{
+    max-width: 816px; 
+    margin: 0 auto; 
+}
+
+.text_3{
+    max-width: 816px;
+    padding: 80px 0 60px 0; 
+}
+
+p{
+    margin-bottom: 40px;
+}
+
+
