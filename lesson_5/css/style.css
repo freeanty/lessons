@@ -1,0 +1,80 @@
+@import url(reset.css);
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #6C757D; 
+}
+
+[class*="__container"]{
+    max-width: 1270px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.article{
+    padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.article__text{
+    max-width: 816px;
+    margin: 0 auto 80px;
+}
+
+.article__text p{ 
+    margin-bottom: 30px;
+}
+  
+.article__title_1 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.6;
+    color: #212529;
+    max-width: 400px;
+    margin-bottom: 40px;
+}
+
+.article__image{
+    border-radius: 5px;
+    max-width: 100%; 
+    margin-bottom: 80px;  
+}
+
+.img_1 {}
+
+.title_2 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.6;
+    color: #212529;
+    max-width: 605px;
+    margin-top: 80px;
+    margin-bottom: 40px; 
+}
+
+.article__images{  
+    font-size: 0;
+    border-radius: 5px;
+    margin-bottom: 80px;
+    max-width: 100%; 
+}
+    
+.img_2 {}
+
+.img_3 {
+    margin-left: 30px;       
+}
+
+.article__text2{
+    max-width: 816px;
+    margin: 0 auto;
+    margin-bottom: 0;
+    }
+
+
+
+
