@@ -1,0 +1,159 @@
+@import url(reset.css);
+
+body{
+font-family: "Poppins", sans-serif;
+color: #495057;
+}
+
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column; 
+}
+
+[class*="__container"]{
+    max-width: 1270px;
+    margin: 50px auto;
+}
+/*HEADER*/
+.header {
+}
+.header__menu {
+    padding: 0 15px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 2.1;
+    color: #495057;
+}
+.menu__start {
+}
+
+.menu__start::after{
+    content: "+";
+}
+
+.start__categories {
+}
+.menu__end {
+    display: flex;
+    gap: 20px;
+}
+.end__column-3 {
+    
+}
+.end__column-4 {
+    color: rgba(73, 80, 87, 0.5);
+}
+
+
+/*MAIN*/
+.page {
+}
+.page__cards {
+    padding-top: 45px;
+    padding-bottom: 60px;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 45px;
+}
+.cards__column {
+    flex: 0 0 33.3333%;
+    padding: 0 15px;
+    
+}
+.card__item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.item-card {
+    position: relative;
+    
+    
+    
+}
+.item-card__image {
+    margin-bottom: 30px;
+    color:rgba(196, 196, 196, 1);
+    border-radius: 3px;
+    
+}
+.item-card__banner {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    padding: 3px;
+    width: 64px;
+    height: 25px;
+    text-transform: uppercase;
+    color: #f8f9fa;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 2.5;
+    background: rgba(33, 37, 41, 0.3);
+    border-radius: 3px;
+    text-align: center;
+}
+.item-card__data {
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.7;
+    color: #495057;
+}
+.item-card__title {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.6;
+    color: #212529;
+}
+.item-card__text {
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    color: #495057;
+}
+.item-card__element {
+}
+.item-card__name {
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.7;
+    color: #495057;
+}
+
+/*FOOTER*/
+
+.footer {
+}
+.footer__button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.footer__button-articles {
+    position: absolute;
+    background: #212529;
+    border-radius: 3px;
+    width: 178px;
+    min-height: 40px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 2.1;
+    text-align: center;
+    color: #F8F9FA;
+    padding: 7px 0;
+}
